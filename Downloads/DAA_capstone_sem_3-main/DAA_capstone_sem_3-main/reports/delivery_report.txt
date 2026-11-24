@@ -1,0 +1,46 @@
+=======================================================
+       INTELLIGENT COURIER OPTIMIZATION SYSTEM
+                 DELIVERY REPORT
+=======================================================
+
+Generated On: 24-11-2026 17:33:04
+
+1. VEHICLE INFORMATION
+----------------------------------------
+Vehicle Capacity: 15 kg
+Total Loaded Weight: 15 kg
+Remaining Capacity: 0 kg
+
+2. SELECTED PARCELS
+----------------------------------------
+P1 | Weight: 5 kg | Value: 50 | Destination: A
+P5 | Weight: 4 kg | Value: 40 | Destination: E
+P6 | Weight: 6 kg | Value: 70 | Destination: F
+
+Total Selected Parcels: 3
+Total Parcel Value: 160
+
+3. REJECTED PARCELS
+----------------------------------------
+P2 | Weight: 3 kg | Value: 30
+P3 | Weight: 8 kg | Value: 80
+P4 | Weight: 2 kg | Value: 20
+
+Total Rejected Parcels: 3
+
+4. OPTIMIZED DELIVERY ROUTE
+----------------------------------------
+W -> A -> E -> F -> W
+
+Total Delivery Distance: 32 km
+
+5. SHORTEST PATH DETAILS
+----------------------------------------
+W -> A: W -> A (5 km)
+A -> E: A -> B -> E (9 km)
+E -> F: E -> F (5 km)
+F -> W: F -> C -> W (13 km)
+
+=======================================================
+             END OF DELIVERY REPORT
+=======================================================
